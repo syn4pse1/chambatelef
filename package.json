@@ -2,11 +2,16 @@
   "name": "twilio-realtime-render",
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "start": "node server.js" },
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
-    "twilio": "^5",            // ✅ usa la rama 5.x estable
+    "twilio": "^5.0.0",
     "ws": "^8.18.0"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }
